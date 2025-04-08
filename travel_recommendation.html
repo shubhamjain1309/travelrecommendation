@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <span class="brand">TravelBloom</span>
+        </div>
+        <div class="navbar-links">
+            <a href="travel_recommendation.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About Us</a>
+            <a href="contact.html" class="nav-link">Contact Us</a>
+        </div>
+        <div class="navbar-right">
+            <input type="text" placeholder="Enter a destination or keyword" class="search-input">
+            <button class="search-button">Search</button>
+            <button class="clear-button">Clear</button>
+        </div>
+    </nav>
+    
+    <div id="local-time" class="local-time"></div>
+    
+    <div class="content-wrapper">
+        <div class="main-content">
+            <div class="hero-section">
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div class="hero-content">
+                    <h1>EXPLORE<br>DREAM<br>DESTINATION</h1>
+                    <p>It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, while pursuing the desired destination that captivates the heart and ignites a sense of wonder.</p>
+                    <button class="book-now">BOOK NOW</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="search-results"></div>
+    </div>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
