@@ -54,4 +54,3 @@ TravelBloom is a travel recommendation website created as part of the Full Stack
 - Form validation
 - Image optimization
 
-## Project Structure 
